@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header{
+position: fixed;
+top:0; left: 0; right: 0;
+z-index: 100000;
+background: #333;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1.5rem 9%;
+
+}
+
+.header .logo{
+font-weight: bolder;
+color: #fff;
+Font-size: 2.5rem;
+
+}
+.header .logo span{
+color:var(--main-color);
+}
+
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 13px;
+}
